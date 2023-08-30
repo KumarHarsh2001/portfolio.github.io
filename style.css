@@ -21,12 +21,7 @@ body{
 .container{
     width: 100vw;
     height: 700vh;
-    /* background: rgb(124,58,180); */
-    /* background: linear-gradient(25deg, rgba(124,58,180,1) 0%, rgba(231,20,200,1) 55%, rgba(69,90,252,1) 100%); */
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 10%, rgba(0,212,255,1) 100%); */
-    background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(85,170,165,1) 74%);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(85,170,165,1) 74%);
 }
 span{
     font-weight: bold;
@@ -81,7 +76,7 @@ span{
     }
     .container{
         position: relative;
-        height: 810vh;
+        height: 850vh;
     }
     .aHeading{
         position: relative;
@@ -92,9 +87,8 @@ span{
     .aDetails{
         width: 100%;
         height: 88%;
-        font-size: 1.4rem;
         text-align: center;
-        padding-top: 0;
+        padding: 15px;
     }
     
 }
