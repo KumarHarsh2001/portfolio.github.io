@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Kalam:wght@300;400&family=Kanit:wght@300&family=Oswald:wght@300&family=Poppins:wght@300;400&family=Sofia+Sans:wght@300&display=swap');
+*{
+    /* font-family: 'Caveat'; */
+    /* font-family: 'Indie Flower'; */
+    /* font-family: 'Lato'; */
+    /* font-family: 'Kalam'; */
+    /* font-family: 'Sofia'; */
+    font-family: 'Kanit';
+    /* font-family: 'Oswald'; */
+    /* font-family: 'Poppins'; */
+    /* font-family: 'Asap'; */
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    /* color: rgba(15, 151, 193, 0.944); */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 700vh;
+    /* background: rgb(124,58,180); */
+    /* background: linear-gradient(25deg, rgba(124,58,180,1) 0%, rgba(231,20,200,1) 55%, rgba(69,90,252,1) 100%); */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 10%, rgba(0,212,255,1) 100%); */
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(85,170,165,1) 74%);
+}
+span{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: black;
+}
+#About{
+    position: relative;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+.aHeading{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    position: relative;
+    top: 16%;
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+.aDetails{
+    width: 80%;
+    height: 88%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    color: black;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#Contact{
+    position: relative;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 112vh;
+    background-color:transparent;
+}
+
+@media only screen and (max-width: 550px) {
+    body{
+        position: absolute;
+        top: -3%;
+    }
+    .container{
+        position: relative;
+        height: 810vh;
+    }
+    .aHeading{
+        position: relative;
+        top: 10%;
+        margin: 5% auto 0;
+
+    }
+    .aDetails{
+        width: 100%;
+        height: 88%;
+        font-size: 1.4rem;
+        text-align: center;
+        padding-top: 0;
+    }
+    
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./img/g2.jpg">
+    <style>
+        @import url('./style.css');
+        @import url('./css/header.css');
+        @import url('./css/main.css');
+        @import url('./css/skills.css');
+        @import url('./css/project.css');
+        @import url('./css/contact.css');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">
+        </div>
+        <img id="ham" src="./img/ham.jpg" alt="">
+        <img id="larr" src="./img/ar1.png" alt="">
+        <div id="headerId" class="header">
+            <ul class="nav">
+                <li class="navhead"><a href="#">Home</a></li>
+                <li class="navhead"><a href="#About">About</a></li>
+                <li class="navhead"><a href="#Skills">Skills</a></li>
+                <li class="navhead"><a href="#Projects">Projects</a></li>
+                <li class="navhead"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="main-content">
+                <div class="intro">
+                    <span>Hi , I'm Kumar Harsh,</span> <br/>
+                    A web App Developer, design apps with efficient algorithm using DSA. 
+                    Worked on different technology like:- MongoDB, ExpressJS, ReactJS, NodeJS, Java, Python, C++.
+                </div>
+                <div id="imgbg">
+                    <div class="image">
+                        <!-- <img id="profilepic" src="./img/mypic.png" alt=""> -->
+                        <!-- <div class="fluid-box"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section id="About">
+            <div class="aHeading">About</div>
+            <div class="aDetails">
+                Hi , I'm Kumar Harsh. Web App Developer, using efficient DSA algorithm for enhance the website feature. Worked on different technology like:- Mongo, Express, React, Node, JavaScript, Python, C++, Java.
+            </div>
+            
+        </section>
+        <section id="Skills">
+            <div class="skill-content">
+                <div class="skill-Head">Skills</div>
+                <div class="skill-details">
+                    I believe skills cannot be limited. One can only learn continuously. So I always try to work on my skills and to make these skills effective I always work on different projects.
+                </div>
+                <div class="skill_box">
+                    <div class="pre">
+                        <img src="./img/pa.png" alt="">
+                    </div>
+                    <ul class="component"></ul>
+                    <div class="next">
+                        <img src="./img/na.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <div class="project-Head">Projects</div>
+            <ul class="project">
+            </ul>
+        </section>
+        <section id="Contact">
+            <div class="contect-head">Contact Me</div>
+            <div class="contact-box">
+                <form id="form_style" action="#">
+                    <div class="form-input">
+                        <label for="name" id="name" class="Label">Your Name</label>
+                        <input type="text" id="name-input" class="Input" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-input">
+                        <label for="email" id="email" class="Label">Email address</label>
+                        <input type="email" id="email-input" class="Input" placeholder="Enter email">
+                    </div>
+                    <div class="form-input">
+                        <label for="query" id="query" class="Label">Share your opinion</label>
+                        <textarea  id="query-input" rows="4" placeholder="Type Here..."></textarea>
+                    </div>
+                    <div id="btnF">
+                        <button type="button" class="contact-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./js/skills.js"></script>
+    <script src="./js/projects.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
